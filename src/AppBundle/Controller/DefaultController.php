@@ -27,7 +27,8 @@ class DefaultController extends Controller
 
     public function legacyAction(Request $request, $modelname, $actionname)
     {
-        global $dblocation, $dbname, $dbpass, $dbuser, $db, $USER;
+        global $su, $dblocation, $dbname, $dbpass, $dbuser, $db, $USER, $siteroot, $approot, $dataobject, $stored;
+        $_GET['route'] = $modelname.'/'.$actionname;
         $path = realpath($this->getParameter('old_app_dir').DIRECTORY_SEPARATOR.'index.php');
         ob_start();
                 require $path;

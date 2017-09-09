@@ -5,7 +5,8 @@
     "autoload": {
         "psr-4": {
             "AppBundle\\": "src/AppBundle",
-            "nikacrm\\classes\\": "nikacrm/classes"
+            "nikacrm\\classes\\": "nikacrm/classes",
+            "nikacrm\\gui_classes\\": "nikacrm/gui_classes"
         },
         "classmap": [
             "app/AppKernel.php",
