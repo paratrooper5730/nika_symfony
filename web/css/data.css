@@ -1,0 +1,18 @@
+td.validbutton img{ 
+	width:24px;
+	height:24px;
+	
+	} 
+td.validbutton { 
+	text-align:center;
+	font-size:7px;
+}
+.super_dep_option{ 
+	color:#880000;
+} 
+textarea{
+	width:400px;
+}
+.allow_1{
+    color:#008800;
+}

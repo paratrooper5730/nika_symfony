@@ -1,0 +1,5 @@
+#mainform textarea[name=comment]{
+    width: 300px;
+    height: 120px;
+    overflow-y: scroll;
+}

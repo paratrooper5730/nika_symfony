@@ -23,18 +23,17 @@ class DefaultController extends Controller
 
     /**
      * @Route("/la/{modelname}/{actionname}", name="legacy")
+     * @Route("/la/{modelname}", name="legacy_view")
      */
 
-    public function legacyAction(Request $request, $modelname, $actionname)
+    public function legacyAction(Request $request, $modelname, $actionname=null)
     {
         global $su, $dblocation, $dbname, $dbpass, $dbuser, $db, $USER, $siteroot, $approot, $dataobject, $stored;
         $_GET['route'] = $modelname.'/'.$actionname;
         $path = realpath($this->getParameter('old_app_dir').DIRECTORY_SEPARATOR.'index.php');
         ob_start();
                 require $path;
-                //echo $modelname."/".$actionname;
         $old_app_response = ob_get_clean();
-        // replace this example code with whatever you need
         return new Response($old_app_response);
     }
 }

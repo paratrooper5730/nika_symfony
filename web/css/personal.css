@@ -1,0 +1,26 @@
+.hrmanager{
+	float:right;
+	width:200px;
+	padding:10px;
+	margin:20px;
+	text-align: center;
+}
+.hrticket{
+	float: right;
+	width: 800px;
+	padding:10px;
+	margin:20px;
+
+}
+.hrticket table{
+	width: 750px !important;
+}
+.ppage_menu{
+	 position: relative;
+	 top:-75px;
+	 left:250px;
+}
+
+.ppage_menu a.btn{
+	padding:10px;
+}

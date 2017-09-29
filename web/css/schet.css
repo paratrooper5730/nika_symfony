@@ -1,0 +1,33 @@
+.emailform input, .emailform textarea{ 
+	width:400px;
+} 
+.emailform input[type=checkbox]{ 
+	width:20px;
+}
+.addfiles{
+	display:none;
+}
+.plusbutton img{ 
+	width:16px;
+	height:16px;
+} 
+.super_dep_option{ 
+	color:#880000;
+} 
+h1 a.btn{ 
+	margin-top:0;
+	margin-bottom:0;
+} 
+h1 { 
+	line-height:35px;
+} 
+
+.schetTable tr > td:nth-child(3){ 
+	font-weight:bold;
+	font-size:12px;
+} 
+.schetTable tr > td:nth-child(4){ 
+	font-weight:bold;
+	font-size:12px;
+	text-align:right;
+} 

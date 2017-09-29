@@ -1,0 +1,17 @@
+
+.konto_option{ 
+	margin-left: 30px;
+} 
+.emitter_option{ 
+	color:#880000;
+} 
+tr.numbers select{
+    width:100px !important;
+}
+#template textarea{
+    width: 550px !important;
+}
+#tabbody4 td *{
+    width: 400px;
+    max-width: 400px;
+}

@@ -1,0 +1,149 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000088;
+	background-image: url("../img/white_texture.png");
+	background-position: top right;
+	background-repeat: repeat;
+}
+
+div.edit_block{ 
+	float:left;
+	margin:5px;
+	height: 50px;
+} 
+div.input_block{ 
+} 
+div.label_block{ 
+	height:25px;
+} 
+a.btn{
+	font-weight:normal;
+	text-decoration:none;
+	margin:10px;
+}
+
+
+.check {width: 15px; height:15px; padding:0; margin:0;}
+
+table#maintable { 
+	border-collapse:collapse;
+	width: 100%;
+	min-width: 750px;
+	border: #ccc 1px solid; 
+	} 
+table#maintable td { 
+	border-top: #ccc 1px solid; 
+	border-left: #ccc 1px solid; 
+	border-right: #ccc 1px solid; 
+	margin:0;  
+	} 
+table#maintable tr:hover td { 
+	border: #c00 1px solid; 
+	border-top: #c00 1px solid; 
+	} 
+
+#maintable thead th{
+	border: #ccc 1px solid; 
+	font-weight: bold;
+	font-size: 9px;
+	padding: 3px;
+	vertical-align:top;
+}
+
+td
+{
+	border-collapse: collapse;
+	padding:5px;
+	vertical-align:top;
+	font-size: 10px;
+	min-width:8px;
+}
+
+
+td.view, td.edit,td.makenew{ 
+    padding:8px;
+} 
+td.view img, td.edit img,td.makenew img{ 
+    width:24px;
+    height:24px;
+    max-width:24px;
+    max-height:24px;
+} 
+
+#delete_link { 
+	float:right;
+}
+#tablebottom {
+    padding:6px;
+	display: none;
+}
+
+
+
+
+.my_pagination{ 
+	font-weight:bold;
+	font-size:12px;
+	width:100%;
+	margin: 20px  20px  20px  10px;
+    float:left;
+} 
+.my_pagination p {
+	text-align:justify;
+	width: 100%;
+}
+.my_pagination a {
+	text-decoration:underline;
+	margin: 3px;
+}
+
+.my_pagination img {
+    width: 32px;
+    height:32px;
+    margin-left:20px;
+    margin-top:-8px;
+}
+
+
+
+#submitblock a{ 
+	font-size:10px;
+	font-weight:bold;
+	padding: 5px 10px 5px 10px;
+	border: #ccc 2px solid;
+	background: #eee;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-top: 30px;
+} 
+#submitblock { 
+margin-bottom:20px;
+margin-top:20px;
+}
+
+
+.client_homepage_btns a{
+
+    padding:10px;
+}
+
+#MyUploadForm{
+    display:none;
+}
+
+#output img{
+    height:100px;
+    width:100px;
+    padding:10px;
+}
+
+.blass *{ color: #555; }
+.red *{ color: #800; }
+.bold *{ color:#800; }
+.alarm *{ color:#c00; background-color:#ff5; }
+
+.blass { color: #555; !important}
+.green { color: #080; !important}
+.blue { color: #008; !important}
+.red { color: #800; !important }
+.bold { color:#800; !important }

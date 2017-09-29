@@ -1,0 +1,4 @@
+$().ready(function() { 
+		//$("#mainform").validate();
+		} 
+		);

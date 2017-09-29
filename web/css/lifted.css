@@ -1,0 +1,68 @@
+#maindiv, #form_div {
+        padding:1em;
+        background:#fff;
+        border-radius:6px;
+		-webkit-box-shadow:0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-border-radius:6px;
+		display:table;
+		position:relative;
+ 
+}
+.tabbody { 
+	display:none;
+} 
+.tabcaption{ 
+	float:left;
+	margin:5px 5px 2px 5px;
+	background: #fff;
+}
+.tabbody.active{ 
+	display:block;
+} 
+.tabcaption.active{ 
+	background-color:#afa;
+} 
+ 
+ 
+#form_div {
+ margin-top:-100px;
+ margin-left:auto;
+ margin-right:auto;
+ width:700px;
+ max-height: 600px;
+ overflow-y:auto;
+ display:none;
+ padding:35px;
+ padding-top:20px;
+ z-index:11;
+ /* background-color: #ccc; */
+}
+ 
+#fog_div{ 
+ position:fixed;
+ top:0;
+ left:0;
+ width:100%;
+ height:1000px;
+ background-color:#000;
+ opacity:0.2;
+ display:none;
+ z-index:-5;
+} 
+#form_wrapper{ 
+	position:fixed;
+	width:100%;
+	top: 200px;
+	overflow:visible;
+	margin:auto;
+	height:4px;
+	display:block;
+	visibility:visible;
+	z-index:11;
+} 
+.submitblock{ 
+	width: 350px;
+	margin:auto;
+} 
